@@ -35,7 +35,7 @@ const Upload = () => {
       formData.append("title", title);
       formData.append("description", description);
 
-      const response = await fetch("http://localhost:5002/upload", {
+      const response = await fetch("https://photomanagemntapp.onrender.com/upload", {
         method: "POST",
         body: formData,
       });
