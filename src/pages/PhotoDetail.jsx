@@ -11,7 +11,7 @@ const PhotoDetail = () => {
   useEffect(() => {
     const fetchPhoto = async () => {
       try {
-        const response = await fetch(`http://localhost:5002/photos/${id}`);
+        const response = await fetch(`https://photomanagemntapp.onrender.com/${id}`);
         const data = await response.json();
         setPhoto(data);
         setLoading(false);
