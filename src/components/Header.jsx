@@ -17,7 +17,7 @@ const Header = () => {
           className="flex items-center space-x-3 rtl:space-x-reverse "
         >
           <ImageIcon className=" text-slate-400" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-xl  md:text-2xl font-semibold whitespace-nowrap dark:text-white">
             Photo Management App
           </span>
         </Link>
